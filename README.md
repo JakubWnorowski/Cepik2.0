@@ -7,7 +7,7 @@ przekształca je na zapytania SQL, a następnie zapisuje w bazie danych, gdzie d
 a przede wszystkim szybszy. Na koniec dane powinny zostać przefiltrowane według żądania użytkownika i wyświetlone w 
 czytelny sposób w aplikacji webowej napisanej np. w Django lub PHP, czego tu brakuje. 
 
-Pliki:
+Pliki:\n
 ConvertingData.py - zczytuje dane z API Cekpik, przekształca je w zapytania SQL i zapisuje do pliku data.txt;
 SavingDataToDB.py - zczytuje dane z pliku "data.txt" i dodaje do bazy danych;
 data.txt          - przechowuje dane w postaci zapytań SQL;
